@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    working_directory: /go/src/github.com/julienbreux/e
+    docker:
+      - image: circleci/golang:1.10
+    steps:
+      - checkout
+      - run:
+          name: Run unit tests
+          command: go test
