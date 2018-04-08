@@ -2,6 +2,6 @@
 package e
 
 // Rror returns the error
-func Rror(_ interface{}, e error) error {
-	return e
+func Rror(_ interface{}, err error) error {
+	return err
 }
