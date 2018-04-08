@@ -1,5 +1,7 @@
 # e.Rror package
 
+[![CircleCI](https://circleci.com/gh/JulienBreux/e.svg?style=svg)](https://circleci.com/gh/JulienBreux/e)
+
 ## BEFORE
 
 ```go
